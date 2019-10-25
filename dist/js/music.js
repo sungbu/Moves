@@ -1,0 +1,1 @@
+!function(i,o){function t(){this.audio=new Audio,this.audio.src="/dist/audio/best-of-your-todays.mp3",this.audio.load(),this.audio.loop=!0,this.status="pause"}t.prototype.play=function(){this.audio.play(),this.status="play"},t.prototype.pause=function(){this.audio.pause(),this.status="pause"},o.audioManger=new t}(window.jQuery,window.player||(window.player={}));

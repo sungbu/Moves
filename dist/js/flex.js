@@ -1,0 +1,1 @@
+!function(){var o=$(".con-main video").offset();console.log(o)}();
